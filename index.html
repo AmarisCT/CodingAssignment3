@@ -1,72 +1,77 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Jasleen Ahluwalia">
-    <title>Garlic Pasta Recipe</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Jasleen Ahluwalia">
+  <title>Garlic Pasta Recipe</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-  <body>
-    <h1>Garlic Pasta Recipe</h1>
+<body>
 
-    <h2>Garlic Butter Pasta</h2>
+  <div class="wrapper">
+    <div>
+      <h1>Garlic Pasta Recipe</h1>
+      <h2>Garlic Butter Pasta</h2>
+      <p>Recipe by: https://www.allrecipes.com/</p>
 
-    <p>Recipe by: https://www.allrecipes.com/</p>
+      <figure>
+        <img src="images/pasta.jpg" alt="Garlic pasta dish" height="250">
+        <figcaption>Image from Google Images (Creative Commons)</figcaption>
+      </figure>
+    </div>
 
-    <figure>
-      <img src="images/pasta.jpg" alt="Garlic pasta dish" height="250">
-      <figcaption>Image from Google Images (Creative Commons)</figcaption>
-    </figure>
+    <div>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>Pasta</li>
+        <li>Garlic</li>
+        <li>Butter</li>
+        <li>Salt</li>
+      </ul>
 
-    <h3>Ingredients</h3>
-    <ul>
-      <li>Pasta</li>
-      <li>Garlic</li>
-      <li>Butter</li>
-      <li>Salt</li>
-    </ul>
+      <h3 class="rate">Rate This Recipe</h3>
+      <fieldset>
+        <legend>How difficult is this recipe?</legend>
+        <input type="radio" name="difficulty"> Easy
+        <input type="radio" name="difficulty"> Intermediate
+        <input type="radio" name="difficulty"> Hard
+      </fieldset>
+    </div>
+  </div>
 
-    <h3 class="rate">Rate This Recipe</h3>
-    <fieldset style="width: 250px;">
-      <legend>How difficult is this recipe?</legend>
-      <input type="radio" id="easy" name="difficulty">
-      <label for="easy">Easy</label>
+  <div class="wrapper">
+    <div>
+      <h3>Directions</h3>
+      <ol>
+        <li>Boil pasta</li>
+        <li>Cook garlic in butter</li>
+        <li>Mix together</li>
+        <li>Serve</li>
+      </ol>
+    </div>
 
-      <input type="radio" id="med" name="difficulty">
-      <label for="med">Intermediate</label>
+    <div>
+      <h3>Conversion</h3>
+      <input type="text" id="tblspn" name="tblspn">
+      =
+      <input type="text" id="cups" name="cups">
+    </div>
+  </div>
 
-      <input type="radio" id="hard" name="difficulty">
-      <label for="hard">Hard</label>
-    </fieldset>
+  <!-- Equipment section commented out -->
+  <!--
+  <h3>Equipment</h3>
+  <ul>
+    <li>Pot</li>
+    <li>Pan</li>
+    <li>Spoon</li>
+  </ul>
+  -->
 
-    <p>&nbsp;</p>
+  <hr>
+  <p style="text-align:right;">This page created as academic activity only.</p>
 
-    <h3>Conversion</h3>
-    <input type="text" id="tblspn" name="tblspn">
-    =
-    <input type="text" id="cups" name="cups">
-
-    <!--
-    <h3>Equipment</h3>
-    <ul>
-      <li>Pot</li>
-      <li>Pan</li>
-      <li>Spoon</li>
-    </ul>
-    -->
-
-    <h3>Directions</h3>
-    <ol>
-      <li>Boil pasta</li>
-      <li>Cook garlic in butter</li>
-      <li>Mix together</li>
-      <li>Serve</li>
-    </ol>
-
-    <hr>
-
-    <p style="text-align:right;">This page created as academic activity only.</p>
-  </body>
+</body>
 </html>
